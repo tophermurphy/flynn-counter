@@ -1,1 +1,62 @@
-<h1>Hi There</h1>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>data demo</title>
+  <style>
+      button{
+      width: 200px;
+          height: 80px;
+          border-radius: 8px;
+          border: solid 3px green;
+          background-color: green;
+      margin: 10px;
+          color: white;
+          font-size: 40px;
+          font-family: "superclarendon-bold";
+        
+      }
+      
+      button:hover{
+      background-color: lightblue;
+          border-color: lightblue;
+                    cursor:pointer;
+      }
+      .outer {
+          position: relative;
+          border: solid 1px yellow;
+              width:90%;
+          margin: 0 auto;
+
+      }
+      
+      .acontain {
+          width: 440px;
+          margin: 0 auto;
+
+      }
+      .bcontain #counter {
+text-align: center;        
+          position: relative;
+          font-size: 10em;
+          font-family: "superclarendon-bold";
+      }
+      
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src='play-sound.js'></script>
+    <script type="text/javascript" src='ion.sound.js'></script>
+    <script type="text/javascript" src='flynn.js'></script>
+</head>
+<body>
+ <div class="outer"><div class="acontain">
+    <button id="left">down</button><button id="right">up</button></div>
+     <div class="bcontain">
+    <h2 id="counter"></h2>
+      </div>
+      </div>
+ 
+
+ 
+</body>
+</html>
